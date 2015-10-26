@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=
-.DEFAULT_GOAL := run
+.DEFAULT_GOAL := run_all
 
 all:
-	$(CC) $(CFLAGS) *.m -lobjc -o main
+	$(CC) $(CFLAGS) *.m -o main -lobjc -std=c99
 
-run: all
+run_all: all
 	./main

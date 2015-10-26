@@ -1,4 +1,5 @@
 #import "RootObject.h"
+#import <stdio.h>
 
 @interface Person : RootObject {
 	@private char *name;

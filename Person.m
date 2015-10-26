@@ -1,5 +1,4 @@
 #import "Person.h"
-#import <stdio.h>
 
 @implementation Person
 

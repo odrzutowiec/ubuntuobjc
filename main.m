@@ -1,8 +1,10 @@
+#import "Console.h"
 #import "Person.h"
 
+
 int main() {
-    Person *brad = [[Person alloc] init];
-    brad.name = (char *) [@"ść ąę polskie znaki ok" cString];
-    [brad sayHello];
-    [brad retain];
+
+  printf(KRED "%s\n" RESET, [@"cześć" cString]);
+
+    return 0;
 }
