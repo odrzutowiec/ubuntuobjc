@@ -3,7 +3,7 @@
 
 @implementation Person
 
-@synthesize name;
+//@synthesize name;
 
 - (void)sayHello {
 	printf("Hello, %s is %s!\n", [self getClassName], [self name]);
