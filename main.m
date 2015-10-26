@@ -1,10 +1,8 @@
 #import "Console.h"
 #import "Person.h"
 
-
 int main() {
-
-  printf(KRED "%s\n" RESET, [@"cześć" cString]);
-
-    return 0;
+	printf(CCLS CRES);
+	printf("Welcome to " CRED "Almor" CRES "." CNL);
+	return 0;
 }
